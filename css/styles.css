@@ -304,6 +304,7 @@ img {
 .team-soc-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link {
@@ -320,8 +321,8 @@ img {
   fill: #f4f4fd;
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus {
+.team-soc-item:hover,
+.team-soc-item:focus {
   background-color: #404bbf;
 }
 
