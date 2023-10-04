@@ -304,7 +304,6 @@ img {
 .team-soc-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link {
@@ -315,6 +314,7 @@ img {
   align-items: center;
   display: flex;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-icon {
@@ -355,6 +355,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover {
@@ -379,7 +380,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   position: absolute;
-  padding: 40px 32px 164px 32px;
+  padding: 40px 32px;
   top: 0;
   background-color: #4d5ae5;
   height: 100%;
