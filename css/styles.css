@@ -320,6 +320,11 @@ img {
   fill: #f4f4fd;
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #404bbf;
+}
+
 /*=========ALL VISIBLE h2========*/
 
 .subject {
