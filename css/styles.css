@@ -321,10 +321,10 @@ img {
   fill: #f4f4fd;
 }
 
-.team-soc-item:hover,
-.team-soc-item:focus {
+/* .team-soc-item:link,
+.team-soc-item:link {
   background-color: #404bbf;
-}
+} */
 
 /*=========ALL VISIBLE h2========*/
 
@@ -355,6 +355,9 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.portfolio-list-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
